@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presente Clicável</title>
+    <style>
+        /* Adicionando um estilo básico para o presente */
+        #presente {
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Imagem do presente clicável -->
+<img id="presente" src="https://st2.depositphotos.com/1219867/8235/i/450/depositphotos_82350542-stock-photo-beautiful-gold-present-box-with.jpg" alt="Presente">
+
+<!-- Script JavaScript para exibir a mensagem ao clicar no presente -->
+<script>
+    // Função que é chamada quando o presente é clicado
+    function exibirMensagem() {
+        alert("Você ganhou um vale beijos, contendo 1000 beijos!");
+    }
+
+    // Adicionando um ouvinte de evento para o clique na imagem do presente
+    document.getElementById("presente").addEventListener("click", exibirMensagem);
+</script>
+
+</body>
+</html>
